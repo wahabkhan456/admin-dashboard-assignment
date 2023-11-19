@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  fontend:
+    build: ./client/
+    depends_on:
+      - web
+    ports:
+      - 3000:3000
+  web:
+    build: ./
+    ports:
+      - 5000:5000
+    restart: on-failure

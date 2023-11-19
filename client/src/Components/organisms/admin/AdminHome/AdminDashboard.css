@@ -1,0 +1,16 @@
+.admin-dashboard {
+  width: 600px;
+  margin: auto;
+}
+
+.Delete-Button {
+  background-color: #fca5a5;
+  color: black;
+  padding: 2px 2px;
+  text-align: center;
+  border-radius: 10px;
+}
+.Delete-Button:hover {
+  background-color: #c84e4e;
+  cursor: pointer;
+}

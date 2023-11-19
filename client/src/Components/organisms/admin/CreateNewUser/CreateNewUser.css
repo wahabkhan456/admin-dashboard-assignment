@@ -1,0 +1,24 @@
+.create-new-user-main {
+  width: 550px;
+  height: 500px;
+  border: 1px solid gray;
+  margin-left: 25%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.create-new-user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-box {
+  width: 400px;
+  margin-top: 20px;
+}
